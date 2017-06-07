@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-                                                                           /* Variables & Mixins
------------------------*/
+/* Variables & Mixins
+ -----------------------*/
 body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -292,10 +292,10 @@ body {
   background-color: #f6f6f6; }
 
 .left-text {
-  padding-left: 0px; }
+  padding-left: 0; }
 
 .right-text {
-  padding-left: 0px; }
+  padding-left: 0; }
 
 .team-section {
   padding-top: 60px;
@@ -318,7 +318,7 @@ body {
   .team-section .kathy-section .kathy-info {
     padding-top: 40px;
     padding-right: 30px;
-    padding-left: 0px; }
+    padding-left: 0; }
   .team-section .owner-name {
     font-size: 24px;
     font-weight: 700;
@@ -373,7 +373,7 @@ body {
     color: #a9cf46; }
   .resource-list a:hover {
     text-decoration: none;
-    animation: greenBackground .4s ease forwards; }
+    animation: greenBackground 0.4s ease forwards; }
   .resource-list .resource-contain {
     width: 60%; }
 
@@ -404,13 +404,16 @@ body {
     color: #a9cf46;
     margin: 0; }
 
+form {
+  padding-top: 10px; }
+
 .hiker-input {
   width: 100%;
   padding: 15px;
   border: none;
   background-color: #f6f6f6;
   outline: none;
-  margin: 0px;
+  margin: 0;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 15px;
@@ -450,7 +453,7 @@ body {
     display: none; }
 
   .team-section {
-    padding-top: 0px;
+    padding-top: 0;
     text-align: center; } }
 @media (max-width: 975px) {
   .navbar-header {
@@ -495,12 +498,12 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 0px; }
+    padding-bottom: 0; }
     .our-story .story-text {
       background-color: white;
       box-shadow: none;
       text-align: center;
-      margin-right: 0px;
+      margin-right: 0;
       z-index: 10;
       width: 100%; }
       .our-story .story-text h1 {
