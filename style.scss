@@ -74,6 +74,16 @@ body {
   background: white;
 }
 
+@media screen and (max-width: 425px) {
+  .lh-navbar {
+    background: white;
+    img {
+      background: $green;
+      padding: 15px 30px;
+    }
+  }
+}
+
 .header {
   @include center;
   background-image: url("img/header-bg.jpg");
@@ -250,7 +260,7 @@ body {
   padding-bottom: 60px;
   padding-top: 30px;
   text-align: center;
-
+  display: flex;
   img {
     padding-left: 30px;
     padding-right: 30px;
@@ -261,7 +271,8 @@ body {
   }
 
   .email-input {
-    width: 500px;
+    width: 60%;
+    min-width: 280px;
     padding: 15px;
     border: none;
     background-color: $light-grey;

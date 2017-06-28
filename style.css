@@ -47,6 +47,12 @@ body {
 .navbar-default .navbar-toggle:hover {
   background: white; }
 
+@media screen and (max-width: 425px) {
+  .lh-navbar {
+    background: white; }
+    .lh-navbar img {
+      background: #a9cf46;
+      padding: 15px 30px; } }
 .header {
   display: flex;
   align-items: center;
@@ -190,14 +196,16 @@ body {
 .newsletter {
   padding-bottom: 60px;
   padding-top: 30px;
-  text-align: center; }
+  text-align: center;
+  display: flex; }
   .newsletter img {
     padding-left: 30px;
     padding-right: 30px; }
   .newsletter .brand-img {
     padding-bottom: 30px; }
   .newsletter .email-input {
-    width: 500px;
+    width: 60%;
+    min-width: 280px;
     padding: 15px;
     border: none;
     background-color: #f6f6f6;
