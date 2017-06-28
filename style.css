@@ -56,6 +56,12 @@ body {
     .lh-navbar img {
       background: #a9cf46;
       padding: 15px 30px; } }
+@media screen and (max-width: 311px) {
+  .lh-navbar {
+    background: white; }
+    .lh-navbar img {
+      background: #a9cf46;
+      padding: 15px 20px; } }
 .header {
   display: flex;
   align-items: center;

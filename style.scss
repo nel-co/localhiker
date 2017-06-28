@@ -89,6 +89,17 @@ body {
   }
 }
 
+@media screen and (max-width: 311px) {
+  .lh-navbar {
+    background: white;
+    img {
+      background: $green;
+      padding: 15px 20px;
+    }
+  }
+}
+
+
 .header {
   @include center;
   background-image: url("img/header-bg.jpg");
